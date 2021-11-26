@@ -11,8 +11,8 @@ public class MenuWithWhileLoop {
         3.
          */
         int falseAttemp = 0;
-        boolean isContinueing = true;
-        while (isContinueing) {
+        boolean isContinuing = true;
+        while (isContinuing) {
             if (falseAttemp == 3) {
                 System.out.println("Exceed try times");
                 break;
@@ -37,7 +37,7 @@ public class MenuWithWhileLoop {
                     checkPrimeNUmber();
                     break;
                 case 0:
-                    isContinueing = false;
+                    isContinuing = false;
                     break;
                 default:
                     falseAttemp += 1;
