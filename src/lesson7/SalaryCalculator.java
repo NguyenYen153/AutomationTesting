@@ -4,10 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SalaryCalculator {
+
     public static double totalSalary (List<StandarEmployee> standarEmployeeList){
-        double totalSalary = 0;
-        double monthEmployeeSalary = totalSalary;
-        return totalSalary;
+        double standarTotalSalary = 0;
+        for(StandarEmployee employee: standarEmployeeList) {
+            double monthEmployeeSalary = employee.getSalary() + employee.getSupportSalary();
+            standarTotalSalary = standarTotalSalary + monthEmployeeSalary;
+
+        }
+        return standarTotalSalary;
     }
 
     public static void main(String[] args) {
