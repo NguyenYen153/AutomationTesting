@@ -1,7 +1,12 @@
-package lesson7;
+package lesson7.Lab7;
+
+import lesson7.Lab7.CEO;
+import lesson7.Lab7.EmployeeType;
+import lesson7.Lab7.Manager;
+import lesson7.Lab7.StandarEmployee;
 
 import java.text.DecimalFormat;
-import static lesson7.EmployeeType.*;
+import static lesson7.Lab7.EmployeeType.*;
 public class calculateEmployeesSalaries {
 
     private static double CEOsalary = 100;
@@ -23,7 +28,7 @@ public class calculateEmployeesSalaries {
         double monthEmployeeSalary = 0;
 
         double totalHigherSalary = 0;
-        CEO ceo = new CEO(CEOsalary,CEOsupportMoney);
+        lesson7.Lab7.CEO ceo = new CEO(CEOsalary,CEOsupportMoney);
         Manager manager = new Manager( managerSalary, manageSupportMoney);
         StandarEmployee standarEmployee = new StandarEmployee(standarSalary , standarSupportMoney);
         StandarEmployee higherSalaryEmployee = new StandarEmployee(standarHigherSalary , standarHigherSupportMoney);
@@ -53,18 +58,18 @@ public class calculateEmployeesSalaries {
         return totalSalary;
     }
 
-        public static void main (String[]args){
+    public static void main (String[]args){
 
-            double totalSalaryCEO = calculateEmployeesSalaries.totalEmployeeSalary(CEO, 1);
-            double totalSalaryStandard = calculateEmployeesSalaries.totalEmployeeSalary(STANDARD, 7);
-            double totalSalaryManager= calculateEmployeesSalaries.totalEmployeeSalary(MANAGER, 3);
+        double totalSalaryCEO = calculateEmployeesSalaries.totalEmployeeSalary(CEO, 1);
+        double totalSalaryStandard = calculateEmployeesSalaries.totalEmployeeSalary(STANDARD, 7);
+        double totalSalaryManager= calculateEmployeesSalaries.totalEmployeeSalary(MANAGER, 3);
 
 //            System.out.println(totalSalaryManager);
 //            System.out.println(totalSalaryStandard);
 //            System.out.println(totalSalaryCEO);
-            DecimalFormat decimalFormat = new DecimalFormat("0.00");
-            double sumSalary = totalSalaryCEO + totalSalaryManager + totalSalaryStandard;
+        DecimalFormat decimalFormat = new DecimalFormat("0.00");
+        double sumSalary = totalSalaryCEO + totalSalaryManager + totalSalaryStandard;
 
-            System.out.println("Sum salary is " + decimalFormat.format(sumSalary));
-        }
+        System.out.println("Sum salary is " + decimalFormat.format(sumSalary));
     }
+}

@@ -1,17 +1,16 @@
-package lesson7;
+package lesson7.Lab7;
 
-public class CEO {
+public class StandarEmployee {
     private double salary;
     private double supportSalary;
 
-    public CEO(double salary, double supportSalary){
+    public StandarEmployee(double salary, double supportSalary){
         this.salary = salary;
         this.supportSalary = supportSalary;
 
     }
 
-    public  double getSalary() {
-        //System.out.println("CEO " + salary);
+    public double getSalary() {
         return salary;
     }
 

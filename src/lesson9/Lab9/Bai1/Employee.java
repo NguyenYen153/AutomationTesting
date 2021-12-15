@@ -1,14 +1,15 @@
-package lesson7;
+package lesson9.Lab9.Bai1;
 
-public class StandarEmployee {
-    private double salary;
-    private double supportSalary;
+public class Employee {
+    protected double salary;
+    protected double supportSalary;
 
-    public StandarEmployee(double salary, double supportSalary){
+    public Employee(double salary, double supportSalary){
         this.salary = salary;
         this.supportSalary = supportSalary;
 
     }
+
 
     public double getSalary() {
         return salary;
@@ -26,3 +27,4 @@ public class StandarEmployee {
         this.supportSalary = supportSalary;
     }
 }
+

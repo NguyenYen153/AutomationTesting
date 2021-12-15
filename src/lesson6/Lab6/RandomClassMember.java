@@ -1,4 +1,4 @@
-package lesson6;
+package lesson6.Lab6;
 
 import java.security.SecureRandom;
 import java.util.HashMap;

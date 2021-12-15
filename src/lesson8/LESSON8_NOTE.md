@@ -2,10 +2,11 @@
 * Defination:
 * Read only
 * Write only
-## LAB 8
+
 ## Class member
 * Class variable
 * Class method
+  ## LAB 8
   Credit: **[Nguyen Thinh Khang](https://github.com/thinhkhang97) (Dev)**, in Selenium K1 for contributing the exercise.
   This is the first simple version racing contest problem.
 

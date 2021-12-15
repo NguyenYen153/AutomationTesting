@@ -1,5 +1,8 @@
 package lesson7;
 
+import lesson7.Lab7.CEO;
+import lesson7.Lab7.StandarEmployee;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,4 +27,5 @@ public class SalaryCalculator {
         double totalSalary = SalaryCalculator.totalSalary(standarEmployeeList);
         System.out.println(totalSalary);
     }
+
 }

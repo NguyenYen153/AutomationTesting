@@ -1,4 +1,4 @@
-package homework2;
+package lesson2.homework2;
 
 public class SortingArray {
     public static void main(String[] args) {

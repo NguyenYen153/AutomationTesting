@@ -1,7 +1,5 @@
-package homework4;
+package lesson4.homework4;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Exercise3 {

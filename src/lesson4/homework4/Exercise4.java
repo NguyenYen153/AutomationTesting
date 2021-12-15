@@ -1,6 +1,4 @@
-package homework4;
-
-import java.util.Scanner;
+package lesson4.homework4;
 
 public class Exercise4 {
         /* String url = "https://google.com";

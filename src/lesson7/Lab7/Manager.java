@@ -1,4 +1,4 @@
-package lesson7;
+package lesson7.Lab7;
 
 public class Manager {
         private double salary;

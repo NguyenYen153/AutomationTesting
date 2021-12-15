@@ -1,4 +1,4 @@
-package homework2;
+package lesson2.homework2;
 /*
 Exercise 01
 Given an array from user input
