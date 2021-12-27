@@ -10,4 +10,5 @@ public abstract class LoginPage {
     protected abstract String userNameSel();
     protected abstract String passWordSel();
     protected abstract String loginBtnSel();
+
 }

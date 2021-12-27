@@ -1,7 +1,8 @@
 ## Abstraction 
 * Format using abstract class: Forming up common flows
-* Initialization
-
+* Initialization Abstract class
+  Không khởi tạo được bằng new key Word đơn thuần mà phải overide các method
+   
 ## Lab 11
 
 Resolve Animal Racing with ABSTRACTION and we add flyAble field:

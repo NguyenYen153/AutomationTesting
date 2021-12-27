@@ -3,7 +3,7 @@ package lesson11.Lab11;
 import java.security.SecureRandom;
 
 public class Dog extends Animal{
-    private final int speed;
+    private final double speed;
     private final String name;
     private final int maxSpeed = 60;
 

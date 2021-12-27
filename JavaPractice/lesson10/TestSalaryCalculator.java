@@ -1,6 +1,7 @@
 package lesson10;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class TestSalaryCalculator {
@@ -10,5 +11,7 @@ public class TestSalaryCalculator {
         Employee standardEmployee = new StandarEmployee();
         List<Employee> employeeList = Arrays.asList(ceo, manager, standardEmployee);
         double totalSalary = SalaryCalculator.getTotalSalary(employeeList);
+        //Sortting
+       // Collections.sort(employeeList);
     }
 }

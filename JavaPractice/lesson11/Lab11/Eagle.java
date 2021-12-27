@@ -2,15 +2,15 @@ package lesson11.Lab11;
 
 import java.security.SecureRandom;
 
-public class Horse extends Animal{
-    private final int speed;
-    private final int maxSpeed = 75;
+public class Eagle extends Animal{
+    private final double speed;
+    private final int maxSpeed = 60;
     private final String name;
 
 
-    public Horse(String name) {
-        this.speed = new SecureRandom().nextInt(maxSpeed + 1);
+    public Eagle(String name) {
         this.name = name;
+        this.speed = new SecureRandom().nextInt(maxSpeed + 1);
     }
 
 
@@ -21,12 +21,10 @@ public class Horse extends Animal{
 
     @Override
     protected boolean IsFlyAble() {
-        return false;
+        return true;
     }
-
     @Override
     protected String getName() {
         return this.name;
     }
-
 }

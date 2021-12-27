@@ -4,7 +4,7 @@ import java.security.SecureRandom;
 
 public class Falcon extends Animal{
 
-    private final int speed;
+    private final double speed;
     private final int maxSpeed = 40;
     private final String name;
 
