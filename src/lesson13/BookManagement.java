@@ -23,7 +23,7 @@ public class BookManagement {
         bookList.add(newBook);
 
         //Save into file System
-        String bookFilePath = System.getProperty("usetr.dir").concat("book.txt");
+        String bookFilePath = System.getProperty("user.dir").concat("book.txt");
         DataFactory.saveBookList(bookList, bookFilePath);
 
         //Retrieve | ISBN -In memory storage

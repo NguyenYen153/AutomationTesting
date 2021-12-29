@@ -1,8 +1,5 @@
 package lesson12.Lab12;
 
-import lesson12.DesignParternLearning.FlyNoWay;
-import lesson12.DesignParternLearning.FlyWithWings;
-
 import java.util.*;
 
 public class AnimalRacingTest {

@@ -1,8 +1,6 @@
 package lesson12.Lab12;
 
-import lesson12.DesignParternLearning.FlyNoWay;
-
-import java.util.*;
+import java.util.List;
 
 public class AnimalRacing {
     static Animal winnerAnimal = null;
